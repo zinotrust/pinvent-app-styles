@@ -5,12 +5,19 @@
   & nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    color: #fff;
+    & > .logo {
+      color: #fff;
+    }
   }
 }
 .home-links {
   display: flex;
   justify-content: center;
   align-items: center;
+  & li a {
+    color: #fff;
+  }
   & > * {
     margin-left: 1rem;
     color: #fff;
